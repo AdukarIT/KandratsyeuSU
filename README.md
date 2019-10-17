@@ -15,4 +15,4 @@
 ### 3. [Основы HTML.](https://docs.google.com/presentation/d/1WgUWIp_JkCTRVB6V4jDXOt1cN694DYananXn-s5GSOg)
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/HTML-bases.md)
-* [Решение]()
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/blob/master/HTML-bases/PhoneRepairService/index.html)
