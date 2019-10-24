@@ -16,4 +16,4 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/HTML-bases.md)
 * [Решение 1](https://github.com/AdukarIT/KandratsyeuSU/tree/master/HTML-bases/PhoneRepairService)
-* [Решение 2]()
+* [Решение 2](https://github.com/AdukarIT/KandratsyeuSU/tree/master/HTML-bases/OfficeEquipmentStore)
