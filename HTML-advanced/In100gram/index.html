@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>In100gram</title>
+	<meta charset="utf-8">
+	<style>
+		form{
+			display: none;
+		}
+		form:target {
+		display:block;
+		}
+
+	</style>
+</head>
+<body>
+	<header style="background-color: black;">
+		<img src="multimedia/logo.png" alt="Logo" width="200" height="200">
+		<img src="multimedia/name.jpg" alt="Service name"  width="200" height="200">
+	</header>
+	<main>
+		<a href="#enter"><h2>Вход</h2></a> 
+		<a href="#registration"><h2>Регистрация</h2></a>
+		<form id="enter" action="feed.html">
+			<fieldset >
+					<legend>Вход</legend>
+					<label for="login">Логин:</label>
+					<input type="text" name="login" required>
+					<br>
+					<label for="password">Пароль:</label>
+					<input type="password" name="password" required>
+					<br>
+					<button type="submit" name="enter" value="enter">Вход</button>
+			</fieldset>
+		</form>
+		<form id="registration" action="feed.html">
+			<fieldset>
+					<legend>Регистрация</legend>
+					<label for="login">Логин:</label>
+					<input type="text" name="login" required>
+					<br>
+					<label for="email">Эл. почта:</label>
+					<input type="email" name="email" required>
+					<br>
+					<label for="password">Пароль:</label>
+					<input type="password" name="password" required>
+					<br>
+					<label for="dpassword">Повторите пароль:</label>
+					<input type="password" name="dpassword" required>
+					<br>
+					<input type="checkbox" name="cbox" required><span>Соглашаюсь с условиями обработки персональных данных </span>
+					<br>
+					<button type="submit" name="registration" value="registration">Регистрация</button>
+				</fieldset>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; In100gramm 2019</p>
+	</footer>
+</body>
+</html>
