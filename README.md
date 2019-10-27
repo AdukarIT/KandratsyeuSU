@@ -28,4 +28,4 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/HTML-advance.md)
 * [Решение 1](https://github.com/AdukarIT/KandratsyeuSU/tree/HTML-advanced/HTML-advanced/In100gram)
-* [Решение 2]()
+* [Решение 2](https://github.com/AdukarIT/KandratsyeuSU/tree/HTML-advanced/HTML-advanced/multilingvist)
