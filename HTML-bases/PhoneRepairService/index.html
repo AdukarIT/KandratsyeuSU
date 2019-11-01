@@ -3,22 +3,44 @@
 <head>
 	<title>Phone repair service</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<a href="index.html"><img src="img/logo.png" alt="LOGO" width="200" height="200"></a>
+	<header class="main_header">
+		<img src="img/logo.png" alt="LOGO" class="header_logo">
 		<h1>Сервис ремонта мобильных телефонов</h1>
-		<hr>
-		<nav>
-			<a href="">Услуги</a>
-			<a href="">Устройства</a>
+		<nav class="main_header_menu">
+			<a href="#">
+				<span>Услуги</span>
+				<div class="hidden">
+					<ul class="main_header_vertical_menu">
+						<li>Замена экрана</li>
+						<li>Замена динамика</li>
+						<li>Замена корпуса</li>
+					</ul>
+				</div>
+			</a>
+			<a href="#">
+				<span>Устройства</span>
+				<div class="hidden">
+					<ul class="main_header_vertical_menu">
+						<li>iPhone</li>
+						<li>Samsung</li>
+						<li>HTC</li>
+						<li>Xiaomi</li>
+						<li>LG</li>
+					</ul>
+				</div>
+			</a>
 			<a href="comments.html">Отзывы</a>
 			<a href="#contacts">Связаться с нами</a>
 		</nav>
-		<hr>
 	</header>
 	<main>
-		<aside>
+		<figure class="first_image">
+		</figure>
+		<aside class="services">
+			<h2>Наши услуги:</h2>
 			<ul>
 				<li>Замена экрана</li>
 				<li>Замена динамика</li>
