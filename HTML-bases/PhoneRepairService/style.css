@@ -1,4 +1,5 @@
 body {
+	background-color: rgba(0, 0, 0, 0.05);
 	margin: 0 auto;
 	min-width: 640px;
 	width: 640px;
@@ -7,7 +8,7 @@ body {
 	display: none;
 }
 .main_header, main aside {
-	padding: 5px;
+	padding: 5px 5px 0px 5px;
 	background-color: rgba(0, 0, 100, 0.1);
 	position: relative;
 }
@@ -30,7 +31,7 @@ h1 {
 	display: inline-block;
 	padding: 0 10px;
 	border-left: 3px solid #bbb;
-	border-top: 2px solid #ddd;
+	border-top: 2px solid #ccc;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	color: rgb(0, 43, 111);
@@ -41,7 +42,7 @@ h1 {
 .main_header_menu a:hover {
 	border-left: 1px solid #bbb;
 	padding-right: 12px;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #ccc;
 }
 .main_header_menu a:hover div {
 	display: block;
@@ -57,26 +58,47 @@ h1 {
 	padding: 10px;
 	font-size: 14px;
 }
-.first_image {
-	width: 100%;
-	height: 335px;
+.first_section {
 	margin: 0;
-	background-image: url('img/phone_repair.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	vertical-align: middle;
+	height: 335px;
+}
+.first_section img{
+	width: 100%;
 }
 h2 {
 	font-family: Helvetica, sans-serif;
 	font-size: 24px;
 	color: rgb(0, 43, 111);
 	text-shadow: 2px 2px rgba(0, 0, 100, 0.3);
+	text-align: center;
+	margin: 0;
 }
 
-.services li {
-	list-style-image: url('img/list_image.gif');
+.second_section {
+	background-color: rgba(0, 0, 100, 0.1);
 	font-family: Arial, sans-serif;
 	color: rgb(0, 43, 111);
 	font-size: 16px;
 	font-weight: bold;
+	position: relative;
+	vertical-align: middle;
+}
+.second_section img {
+	width: 150px;
+	height: 150px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 50%;
+	position: absolute;
+	top: 2em;
+	right: 100px;
+}
+.second_section ul {
+	line-height: 50px;
+	margin: 0;
+}
+.second_section a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
 }
