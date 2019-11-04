@@ -3,59 +3,93 @@
 <head>
 	<title>Phone repair service</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<a href="index.html"><img src="img/logo.png" alt="LOGO" width="200" height="200"></a>
+	<header class="main_header">
+		<img src="img/logo.png" alt="LOGO" class="header_logo">
 		<h1>Сервис ремонта мобильных телефонов</h1>
-		<hr>
-		<nav>
-			<a href="">Услуги</a>
-			<a href="">Устройства</a>
+		<nav class="main_header_menu">
+			<a href="#services">
+				<span>Услуги</span>
+				<div class="hidden">
+					<ul class="main_header_vertical_menu">
+						<li>Замена экрана</li>
+						<li>Замена динамика</li>
+						<li>Замена корпуса</li>
+					</ul>
+				</div>
+			</a>
+			<a href="#devices">
+				<span>Устройства</span>
+				<div class="hidden">
+					<ul class="main_header_vertical_menu">
+						<li>iPhone</li>
+						<li>Samsung</li>
+						<li>HTC</li>
+						<li>Xiaomi</li>
+						<li>LG</li>
+					</ul>
+				</div>
+			</a>
 			<a href="comments.html">Отзывы</a>
 			<a href="#contacts">Связаться с нами</a>
 		</nav>
-		<hr>
 	</header>
 	<main>
-		<aside>
-			<ul>
-				<li>Замена экрана</li>
-				<li>Замена динамика</li>
-				<li>Замена корпуса</li>
-			</ul>
-			<a href="price-list.xlsx" download>Прайс-лист</a>
-		</aside>
-	<hr>
-		<table border="1" cellspacing="0" cellpadding="10">
-			<thead>
-				<tr>
-					<td><b>Устройства, которые мы ремонтируем:</b></td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>iPhone</td>
-				</tr>
-				<tr>
-					<td>Samsung</td>
-				</tr>
-				<tr>
-					<td>HTC</td>
-				</tr>
-				<tr>
-					<td>Xiaomi</td>
-				</tr>
-				<tr>
-					<td>LG</td>
-				</tr>
-			</tbody>
-		</table>
-		<hr>
+		<section class="first_section">
+			<img src="img/first_section_image.jpg" alt="Phone repairing">
+		</section>
+		<section class="second_section" id="services">
+			<h2>Наши услуги:</h2>
+			<div>
+				<ul>
+					<li>Замена экрана</li>
+					<li>Замена динамика</li>
+					<li>Замена корпуса</li>
+				</ul>
+				<img src="img/list_image.gif" alt="Phone dancing"> 
+				
+			</div>
+
+			<a href="price-list.xlsx" download>
+			&dArr;Скачать прайс-лист&dArr;
+			</a>
+		</section>
+		<section class="third_section">
+			<img src="img/third_section_image.png" alt="Phone repairing">
+		</section>
+		<section class="fourth_section" id="devices">
+			<h2>Устройства, которые мы ремонтируем:</h2>
+			<figure>
+				<img src="img/iphone.png">
+				<figcaption>iPhone</figcaption>
+			</figure>
+			<figure>
+				<img src="img/samsung.jpg">
+				<figcaption>Samsung</figcaption>
+			</figure>
+			<figure>
+				<img src="img/HTC.png">
+				<figcaption>HTC</figcaption>
+			</figure>
+			<figure>
+				<img src="img/Xiaomi.png">
+				<figcaption>Xiaomi</figcaption>
+			</figure>
+			<figure>
+				<img src="img/lg.jpg">
+				<figcaption>LG</figcaption>
+			</figure>
+			<figure>
+				<img src="img/list_image.gif">
+				<figcaption>прочие</figcaption>
+			</figure>
+		</section>
 	</main>
 	<footer>
 		<section id="contacts">
-			<h2>Связаться с нами</h2>
+			<p>Связаться с нами</p>
 			<p>Номер телефона: +375 29 000 0000</p>
 			<p>Адрес: г.Минск, ул.Немига, д.5, к-т.610</p>
 			<p>Время работы: 8:00-17:00</p>
