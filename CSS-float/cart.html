@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Delivery form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo_wrapper">
+			<a href="#">TS</a>
+			<h1>TechShop</h1>
+		</div>
+		<nav class="main_menu">
+			<div class="main_menu_block">
+				<a href="#">Бытовая техника</a>
+				<ul>
+					<li>Стиральные машины</li>
+					<li>Пылесосы</li>
+					<li>Швейные, вышивальные машины</li>
+					<li>Утюги</li>
+					<li>Электровеники</li>
+					<li>Сушилки для обуви</li>
+				</ul>
+			</div>
+			<div class="main_menu_block">
+				<a href="#">Техника для кухни</a>
+				<ul>
+					<li>Холодильники</li>
+					<li>Кухонные плиты</li>
+					<li>Морозильники</li>
+					<li>Настольные плиты</li>
+					<li>Ростеры, мини-печи</li>
+					<li>Вытяжки</li>
+					<li>Микроволновые печи</li>
+				</ul>
+			</div>
+			<div class="main_menu_block">
+				<a href="#">Компьютерная техника</a>
+				<ul>
+					<li>Ноутбуки</li>
+					<li>Планшеты</li>
+					<li>Компьютеры, моноблоки</li>
+					<li>Игровые приставки</li>
+					<li>Серверное оборудование</li>
+				</ul>
+			</div>
+			<div class="main_menu_block">
+				<a href="#">Корзина</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<form class="deliveryForm">
+			<fieldset>
+				<legend>Заказать товар</legend>
+				<label for="firstName">Имя:</label>
+				<input type="text" name="Name" id="firstName" required>
+				<br>
+				<label for="lastName">Фамилия:</label>
+				<input type="text" name="lastName" id="lastName" required>
+				<br>
+				<label for="phone">Телефон:</label>
+				<input type="phone" name="Phone" id="phone" required>
+				<br>
+				<label for="email">E-mail:</label>
+				<input type="email" name="email" id="email" required>
+				<br>
+				<input type="radio" name="deliveryOptions" id="pickupCheck">
+				<span>Самовывоз<br></span>
+				<input type="radio" name="deliveryOptions" id="deliveryCheck">
+				<span>Доставка<br></span>
+				<iframe id="companyAddress" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.20100700203!2d27.45328455831956!3d53.884760831399795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1573395282920!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				<span class="deliveryAddress" for="address">Адрес:<br></span>
+				<input class="deliveryAddress" type="text" name="address" id="address">
+				<span><br>Комментарий:<br></span>
+				<textarea></textarea>
+				<span><br>Я прочитал и согласен с <a href="">условиями доставки</a></span>
+				<input type="checkbox" name="checkDeliveryTherms" id="checkDeliveryTherms" required>
+				<button class="nonChecked" type="submit" disabled>Заказать</button>
+				<button class="checked" type="submit">Заказать</button>
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<br>
+		<div>
+			<h3>Время работы:</h3>
+			<p>Пн-Пт: c 8.00 до 17.00 <br>
+			Сб-Вс: выходной</p>
+		</div>
+		<div>
+			<h3>Наши телефоны:</h3>
+			<p><a href="phone:+375330000000">+375330000000</a><br>
+			    <a href="phone:+375017000000">+375017000000</a>
+			</p>	
+		</div>
+		<div>
+			<h3>Наш адрес:</h3>
+			<p>г.Минск, ул.Немига 5</p>
+		</div>
+		<div>
+			<h3>Skype:</h3>
+			<p><a href="skype:techshop">techshop</a></p>
+		</div>
+		<br class="clearfix">
+		<hr>
+  		<span> &#169; TechShop 2019</span>
+	</footer>
+</body>
+</html>
