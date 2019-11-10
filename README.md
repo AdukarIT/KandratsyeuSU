@@ -29,3 +29,19 @@
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/HTML-advance.md)
 * [Решение 1](https://github.com/AdukarIT/KandratsyeuSU/tree/HTML-advanced/HTML-advanced/In100gram)
 * [Решение 2](https://github.com/AdukarIT/KandratsyeuSU/tree/HTML-advanced/HTML-advanced/multilingvist)
+
+---
+
+### 6. [Основы CSS.](https://docs.google.com/presentation/d/1huSLQsHdKkCrs6KYtgcmBAS3RRfe7Ek7UaLsQdfCCUw)
+
+---
+
+### 7. [CSS. Позиционирование.](https://docs.google.com/presentation/d/1PUiDnuZE8my7XEk9k0Fxknmal24LbUkk3JXphy9hQKs)
+
+---
+
+### 8. [Float. Псевдоклассы и составные селекторыю](https://docs.google.com/presentation/d/1ujoKUHYsQb0vSYQl9nym4BaF3wx_zpPNWen7915vXjQ)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/CSS-blocks.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/CSSfloat/CSS-float)
+
