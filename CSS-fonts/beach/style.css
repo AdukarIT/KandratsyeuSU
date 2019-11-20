@@ -1,0 +1,5 @@
+body {
+	margin: 0;
+	background: url(sea.jpg) fixed no-repeat bottom, url(sun.png) fixed no-repeat top right, url(sky.jpg);
+	background-size: 100% auto , 25%, 40%;
+}

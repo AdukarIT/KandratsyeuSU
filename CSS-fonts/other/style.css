@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	background: url(img/background_body.jpg);
+	background-size: 40%;
+	position: relative;
+}
+.phone {
+	width: 20vw;
+	height: 20vw;
+	position: fixed;
+	top: 5vw;
+	right: 5vw;
+	background-color: rgba(0, 120, 0, 0.6);
+	border-right: 5px solid #050;
+	border-bottom: 5px solid #050;
+	border-radius: 50%;
+}
+.phone a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(img/phone.png);
+	background-size: 100%;
+}
+header, footer {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.main_logo {
+	width: 100%;
+}
+h1 {
+	font-size: 7em;
+	color: rgba(255,255,255,0.5);
+	text-shadow: 4px 2px #444;
+}
+aside {
+	width: 100%;
+	text-align: center;
+}
+.search input,label,button {
+  font-size: 4em;
+}
+.main_menu ul {
+	list-style: none;
+	line-height: 2em;
+	font-size: 3.5em;
+	font-weight: bold;
+	color: rgba(255,255,255,0.7);
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+}
+.main_menu ul li {
+	background-color: rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	margin: 10px 0;
+}
+figure, .item h2 {
+	margin: 0;
+}
+.item {
+	padding: 3%;
+	border-bottom: 2px solid #aaa;
+}
+.catalogue::last-child {
+	border-bottom: none;
+}
+.item img {
+	width: 100%;
+}
+.item h2 {
+	text-align: center;
+	font-size: 3em;
+	color: rgba(255,255,255,0.6);
+	text-shadow: 3px 2px rgba(0,0,0,0.4);
+}
+.item figcaption {
+	font-size: 1.5em;
+	color: rgba(0,0,0,0.8);
+}
+.like label {
+	display: block;
+	text-align: center;
+}
+#like:checked ~ label{
+	color: rgb(255,30,30);
+}
+.like input {
+	display: none;
+}
+footer p {
+	margin: 0;
+	padding: 20px;
+}
+/*#like:checked ~ label:hover {
+	color: rgba(255,0,0,0.3);
+}*/
+/*.like label:hover {
+	color: rgba(50,50,255,0.5);
+}*/
