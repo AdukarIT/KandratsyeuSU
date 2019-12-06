@@ -94,9 +94,12 @@ footer p {
 	margin: 0;
 	padding: 20px;
 }
-/*#like:checked ~ label:hover {
-	color: rgba(255,0,0,0.3);
-}*/
-/*.like label:hover {
-	color: rgba(50,50,255,0.5);
-}*/
+
+@media screen(min-width: 600px) {
+	#like:checked ~ label:hover {
+		color: rgba(255,0,0,0.3);
+	}
+	.like label:hover {
+		color: rgba(50,50,255,0.5);
+	}
+}
