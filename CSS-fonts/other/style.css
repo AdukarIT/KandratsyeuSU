@@ -1,8 +1,14 @@
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
 body {
 	margin: 0;
 	background: url(img/background_body.jpg);
 	background-size: 40%;
 	position: relative;
+	min-width: 320px;
 }
 .phone {
 	width: 20vw;
@@ -94,9 +100,68 @@ footer p {
 	margin: 0;
 	padding: 20px;
 }
-/*#like:checked ~ label:hover {
-	color: rgba(255,0,0,0.3);
-}*/
-/*.like label:hover {
-	color: rgba(50,50,255,0.5);
-}*/
+
+@media(min-width: 600px) {
+	body {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.main_logo {
+		display: inline-block;
+		width: 30%;
+		float: left;
+	}
+	#like:checked ~ label:hover {
+		color: rgba(255,0,0,0.3);
+	}
+	.like label:hover {
+		color: rgba(50,50,255,0.5);
+	}
+	h1 {
+		display: inline-block;
+		font-size: 7vw;
+		float: left;
+	}
+	.phone {
+		width: 10vw;
+		height: 10vw;
+		top: initial;
+		right: 1vw;
+		bottom: 1vw;
+	}
+	.search {
+		float: right;
+	}
+	.search input,button,label {
+		font-size: 2vw;
+	}
+	.main_menu ul {
+		font-size: 1.5em;
+		margin-top: 0;
+	}
+	.main_menu ul li {
+		float: left;
+		width: 33.3333%;
+		margin: 0;
+	}
+	.main_menu ul li:hover {
+		background-color: rgba(255,255,255,0.2);
+		color: rgba(0,0,0,0.6);
+	}
+	.item {
+		padding: 1vw;
+	}
+	.item h2 {
+		font-size: 1em;
+	}
+	.item img {
+		width: 30%;
+		float: left;
+	}
+	.item figcaption {
+		font-size: 1em;
+	}
+	footer p {
+		padding: 1vw;
+	}
+}
