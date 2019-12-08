@@ -45,3 +45,21 @@
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/CSS-blocks.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/CSSfloat/CSS-float)
 
+---
+
+### 9. [Свойства видимости. Именование классов. БЭМ](https://docs.google.com/presentation/d/1HXSQyl1hmq8iu_3iuILVfSfVacxkFJrNpUP1A-5fkws)
+
+---
+
+### 10. [Изображения. Шрифты и иконки](https://docs.google.com/presentation/d/1SZnfA0SogjtcTOVRmY5m7oBhfN5lGjqNLT94wgEyxO4)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/CSS-styles.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/CSSfonts/CSS-fonts)
+
+---
+
+### 11. Практика
+
+---
+
+### 12. [Flexbox](https://docs.google.com/presentation/d/1uvritHChu3DRu4Vxc6Uaev0Pve5S62FMbcjfd_T3UF0)
