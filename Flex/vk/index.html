@@ -15,6 +15,9 @@
 			<div class="central-item">
 					<span class="icon-search"></span>
 					<input class="custom-search" type="search" name="search" placeholder="Поиск">
+					<button class="header-button"><span class="icon-bell-alt"></span></button>
+					<button class="header-button"><span class="icon-music"></span></button>
+					<button class="header-button"><span class="icon-play"></span></button>
 			</div>
 			<div class="right-item">
 				<a class="profile-menu" href="#">
@@ -58,32 +61,46 @@
 						<div>
 							<a href="#"><h2>Mr.Cat</h2></a>
 							<a href="#"><span>только что</span></a>
-							<a href="#"><span class="icon-angle-down"></span></a>
 						</div>	
+							<a href="#"><span class="icon-angle-down"></span></a>
 					</div>
 					<div class="item-box-content">
 						<p>Какие же юридические факультеты и специальности есть в белорусских вузах? Адукар просмотрел порядок приёма университетов и подскажет тебе, куда поступать на юриста.</p>
 						<img src="img/post-image.jpg">
 					</div>
-					<div class="item-box-footer"><span class="icon-heart"></span></div>
-					
+					<hr>
+					<div class="item-box-footer">
+						<input type="checkbox" name="like" id="like"><label for="like" class="icon-heart-empty"></label><label for="like" class="icon-heart">215</label>
+						<a class="icon-comment-empty" href="#">35</a>
+						<a class="icon-forward" href="#"></a>
+					</div>
 				</div>
 			</div>
 			<aside class="right-item main-container-item">
-				<div class="item-box">
+				<div class="item-box-right">
 					<nav class="right-menu">
 						<ul>
-							<li>Новости</li>
-							<li>Рекомендации</li>
-							<li>Поиск</li>
+							<li>
+								<input class="right-menu-listitem" type="radio" name="ch1" id="ch1" checked><label for="ch1">Новости</label>
+								<ul>
+									<li>Друзья</li>
+									<li>Сообщества</li>
+									<li>Подкасты</li>
+								</ul>
+							</li>
+							<li><input class="right-menu-listitem" type="radio" name="ch1" id="ch2"><label for="ch2">Рекомендации</label></li>
+							<li><input class="right-menu-listitem" type="radio" name="ch1" id="ch3"><label for="ch3">Поиск</label></li>
 						</ul>
 						<hr>
 						<ul>
-							<li>Понравилось</li>
-							<li>Обновления</li>
-							<li>Комментарии</li>
+							<li><input class="right-menu-listitem" type="radio" name="ch1" id="ch4"><label for="ch4">Понравилось</label></li>
+							<li><input class="right-menu-listitem" type="radio" name="ch1" id="ch5"><label for="ch5">Обновления</label></li>
+							<li><input class="right-menu-listitem" type="radio" name="ch1" id="ch6"><label for="ch6">Комментарии</label></li>
 						</ul>
 					</nav>
+				</div>
+				<div class="item-box-right interest">
+					<input type="checkbox" name="interest" id="interest"><label class="icon-star" for="interest">Сначала интересные <span class="icon-toggle-off"></span><span class="icon-toggle-on"></span></label>
 				</div>
 			</aside>			
 		</div>
