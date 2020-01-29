@@ -8,12 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
 <body>
-	<header>
+	<header class="main-header">
 		<span class="opening-hours">Open daily 10.00 to 17.30</span>
 		<span class="menu-scribe">Menu</span>
 		<span class="menu-icon">&equiv;</span>
 	</header>
-	<main>
+	<main class="main">
 		<section class="main-banner">
 			<div class="main-banner-title">
 				<h1>Tim Walker: Wonderful&nbsp;Things</h1>
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				<div class="introblock-list-item">
-					<svg viewBox="0 0 100 100" style="width:25px;"><title>ticket</title><path d="M56.23 28.308l-3.521 3.52 5.128 5.127 3.52-3.52-5.127-5.127zm10.285 10.286l-3.52 3.519 5.128 5.127 3.52-3.52-5.128-5.126zM63.16 1L73.88 11.717c-3.477 4.012-3.309 10.088.504 13.902 3.813 3.812 9.889 3.98 13.902.503L99 36.84 81.881 53.96l-5.08-5.082-3.521 3.52 5.08 5.08L36.84 99 26.027 88.187c2.767-3.981 2.377-9.494-1.17-13.04-3.552-3.55-9.063-3.94-13.044-1.173L1 63.16l41.522-41.52 5.03 5.031 3.52-3.52-5.031-5.031L63.16 1z" fill="currentColor" fill-rule="nonzero"></path></svg>
+					<svg viewBox="0 0 100 100"><title>ticket</title><path d="M56.23 28.308l-3.521 3.52 5.128 5.127 3.52-3.52-5.127-5.127zm10.285 10.286l-3.52 3.519 5.128 5.127 3.52-3.52-5.128-5.126zM63.16 1L73.88 11.717c-3.477 4.012-3.309 10.088.504 13.902 3.813 3.812 9.889 3.98 13.902.503L99 36.84 81.881 53.96l-5.08-5.082-3.521 3.52 5.08 5.08L36.84 99 26.027 88.187c2.767-3.981 2.377-9.494-1.17-13.04-3.552-3.55-9.063-3.94-13.044-1.173L1 63.16l41.522-41.52 5.03 5.031 3.52-3.52-5.031-5.031L63.16 1z" fill="currentColor" fill-rule="nonzero"></path></svg>
 					<div class="introblock-list-item-content">
 						<h3>Admission is free</h3>
 						<p>Some exhibitions and events carry a separate charge <br> </p>
@@ -58,12 +58,128 @@
 			</div>
 			<div class="introblock-footer">
 				<button>Plan a visit &#9658;</button>
+				<p>Follow The V&A</p>
 				<div class="social-links">
-					<p>Follow The V&A</p>
-					<p><span><svg id="facebook" viewBox="0 0 100 100"><title>Facebook</title><path d="M57.685 97V54.122h14.392l2.155-16.71H57.685V26.743c0-4.838 1.344-8.135 8.281-8.135l8.849-.004V3.66C73.285 3.455 68.032 3 61.921 3c-12.758 0-21.492 7.787-21.492 22.088v12.324H26v16.71h14.429V97h17.256z" fill-rule="nonzero" fill="currentColor"></path></svg></span></p>
+					<span><svg id="facebook" viewBox="0 0 100 100"><title>Facebook</title><path d="M57.685 97V54.122h14.392l2.155-16.71H57.685V26.743c0-4.838 1.344-8.135 8.281-8.135l8.849-.004V3.66C73.285 3.455 68.032 3 61.921 3c-12.758 0-21.492 7.787-21.492 22.088v12.324H26v16.71h14.429V97h17.256z" fill-rule="nonzero" fill="currentColor"></path></svg></span>
+					<span><svg id="twitter" viewBox="0 0 100 100"><title>Twitter</title><path d="M32.363 87.435c34.863 0 53.928-28.9 53.928-53.963 0-.82-.017-1.638-.054-2.451a38.559 38.559 0 0 0 9.455-9.821 37.775 37.775 0 0 1-10.885 2.986 19.032 19.032 0 0 0 8.335-10.49 37.997 37.997 0 0 1-12.036 4.603 18.926 18.926 0 0 0-13.835-5.992c-10.466 0-18.954 8.494-18.954 18.963 0 1.489.166 2.936.491 4.325-15.752-.793-29.72-8.34-39.069-19.816a18.925 18.925 0 0 0-2.566 9.533c0 6.58 3.346 12.389 8.434 15.787-3.11-.096-6.03-.95-8.584-2.372-.003.08-.003.157-.003.242 0 9.185 6.534 16.854 15.206 18.592a18.966 18.966 0 0 1-8.56.325c2.413 7.536 9.41 13.02 17.706 13.173a38.007 38.007 0 0 1-23.54 8.118 38.47 38.47 0 0 1-4.522-.262 53.625 53.625 0 0 0 29.054 8.52" fill-rule="nonzero" fill="currentColor"></path></svg></span>
+					<span><svg id="youtube" viewBox="0 0 100 100"><title>YouTube</title><path d="M39.001 35.33l29.333 14.642L39 64.668V35.33zM94.003 50c-.11-22.678-1.776-31.352-16.077-32.326-13.217-.902-42.648-.896-55.843 0C7.793 18.648 6.11 27.284 6 50c.11 22.677 1.777 31.351 16.077 32.325 13.195.896 42.627.902 55.844 0 14.29-.974 15.972-9.609 16.082-32.325z" fill="currentColor" fill-rule="nonzero"></path></svg></span>
+					<span><svg id="instagram" viewBox="0 0 100 100"><title>Instagram</title><path d="M49.984.032c-13.575 0-15.277.057-20.608.3-5.32.243-8.954 1.088-12.133 2.324-3.287 1.277-6.075 2.986-8.854 5.765-2.778 2.779-4.488 5.566-5.765 8.853-1.236 3.18-2.08 6.813-2.323 12.133C.058 34.74 0 36.441 0 50.016 0 63.59.058 65.293.3 70.624c.243 5.32 1.088 8.954 2.324 12.133 1.277 3.287 2.987 6.075 5.765 8.854 2.78 2.778 5.567 4.488 8.854 5.765 3.179 1.236 6.813 2.08 12.133 2.323 5.331.243 7.033.301 20.608.301s15.277-.058 20.609-.3c5.32-.243 8.953-1.088 12.133-2.324 3.287-1.277 6.074-2.987 8.853-5.765 2.779-2.78 4.488-5.567 5.765-8.854 1.236-3.179 2.081-6.813 2.324-12.133.243-5.331.3-7.033.3-20.608s-.057-15.277-.3-20.609c-.243-5.32-1.088-8.953-2.324-12.133-1.277-3.287-2.986-6.074-5.765-8.853-2.779-2.779-5.566-4.488-8.853-5.765C79.546 1.42 75.913.575 70.593.332c-5.332-.243-7.034-.3-20.609-.3zm0 9.006c13.347 0 14.928.05 20.198.291 4.874.222 7.52 1.037 9.281 1.721 2.334.907 3.999 1.99 5.748 3.74 1.749 1.748 2.832 3.413 3.739 5.747.684 1.76 1.499 4.407 1.72 9.28.241 5.271.292 6.852.292 20.199 0 13.346-.05 14.927-.291 20.198-.222 4.873-1.037 7.52-1.721 9.281-.907 2.333-1.99 3.998-3.74 5.747-1.748 1.75-3.413 2.833-5.747 3.74-1.76.684-4.407 1.498-9.28 1.72-5.27.24-6.851.292-20.199.292-13.347 0-14.928-.051-20.198-.292-4.873-.222-7.52-1.036-9.281-1.72-2.333-.907-3.998-1.99-5.747-3.74-1.75-1.749-2.833-3.414-3.74-5.747-.684-1.761-1.498-4.408-1.72-9.281-.24-5.27-.292-6.852-.292-20.198 0-13.347.051-14.928.292-20.198.222-4.874 1.036-7.52 1.72-9.281.907-2.334 1.99-3.999 3.74-5.748 1.749-1.749 3.414-2.832 5.747-3.739 1.761-.684 4.408-1.499 9.281-1.72 5.27-.241 6.852-.292 20.198-.292zm.002 56.305c-8.466 0-15.329-6.863-15.329-15.328 0-8.466 6.863-15.329 15.329-15.329 8.465 0 15.328 6.863 15.328 15.329 0 8.465-6.863 15.328-15.328 15.328zm0-38.943c-13.042 0-23.615 10.573-23.615 23.615 0 13.041 10.573 23.614 23.615 23.614 13.041 0 23.614-10.573 23.614-23.614C73.6 36.973 63.027 26.4 49.986 26.4zm30.065-.933a5.518 5.518 0 1 0-11.037 0 5.518 5.518 0 0 0 11.037 0z" fill-rule="nonzero" fill="currentColor"></path></svg></span>
+					<span><svg id="pinterest" viewBox="0 0 100 100"><title>Pinterest</title><path d="M15 37.001c0-3.98.695-7.736 2.075-11.247 1.38-3.512 3.286-6.591 5.727-9.21 2.441-2.62 5.239-4.883 8.403-6.798a38.668 38.668 0 0 1 10.234-4.31A43.832 43.832 0 0 1 52.61 4c5.821 0 11.248 1.23 16.261 3.68 5.014 2.45 9.089 6.019 12.225 10.704 3.135 4.684 4.703 9.97 4.703 15.866 0 3.54-.347 7.004-1.051 10.394a42.044 42.044 0 0 1-3.314 9.783c-1.512 3.126-3.352 5.887-5.53 8.262-2.179 2.375-4.845 4.272-8.018 5.699-3.174 1.417-6.657 2.131-10.45 2.131-2.507 0-4.995-.591-7.464-1.765-2.47-1.183-4.244-2.798-5.305-4.863a796.267 796.267 0 0 0-1.549 6.224c-.666 2.714-1.098 4.46-1.295 5.249-.207.788-.583 2.103-1.136 3.924-.554 1.822-1.033 3.136-1.437 3.925-.404.788-.995 1.943-1.765 3.455a38.406 38.406 0 0 1-2.544 4.28 166.793 166.793 0 0 1-3.427 4.78l-.77.272-.498-.554c-.554-5.783-.826-9.257-.826-10.393 0-3.39.394-7.201 1.192-11.417.79-4.225 2.019-9.52 3.68-15.895 1.663-6.375 2.62-10.121 2.874-11.229-1.183-2.394-1.765-5.511-1.765-9.342 0-3.06.957-5.933 2.873-8.628 1.915-2.694 4.347-4.037 7.295-4.037 2.253 0 4 .751 5.248 2.244 1.258 1.493 1.878 3.38 1.878 5.67 0 2.432-.808 5.953-2.432 10.563-1.624 4.61-2.432 8.055-2.432 10.337 0 2.319.827 4.253 2.488 5.774 1.662 1.53 3.671 2.29 6.028 2.29 2.028 0 3.906-.46 5.643-1.38a12.664 12.664 0 0 0 4.337-3.755 31.508 31.508 0 0 0 3.098-5.257 30.281 30.281 0 0 0 2.103-6.113c.498-2.159.864-4.206 1.108-6.14a43.9 43.9 0 0 0 .357-5.502c0-6.374-2.018-11.341-6.056-14.9-4.037-3.558-9.294-5.332-15.782-5.332-7.37 0-13.53 2.385-18.468 7.163-4.938 4.77-7.407 10.826-7.407 18.168 0 1.624.234 3.192.694 4.703.46 1.512.958 2.714 1.493 3.596a170.78 170.78 0 0 1 1.493 2.516c.46.789.695 1.352.695 1.69 0 1.033-.272 2.376-.826 4.037-.554 1.662-1.24 2.488-2.047 2.488-.075 0-.385-.056-.939-.169-1.878-.553-3.549-1.586-5.004-3.098a16.09 16.09 0 0 1-3.37-5.23 34.213 34.213 0 0 1-1.794-5.97A25.383 25.383 0 0 1 15 37z" fill-rule="nonzero" fill="currentColor"></path></svg></span>
 				</div>
 			</div>
 		</section>
+		<section class="events-list">
+			<header>
+				<h2>Exhibitions</h2>
+			</header>
+			<main>
+				<figure class="event">
+					<img src="images/firstevent.jpg">
+					<figcaption>
+						<span>Exhibition</span>
+						<h3>Mary Quant</h3>
+						<p>From 6 Apr 2019 until 16 Feb 2020</p>
+						<a href="">Find out more &#9658;</a>
+					</figcaption>
+				</figure>
+				<figure class="event">
+					<img src="images/secondevent.jpg">
+					<figcaption>
+						<span>Exhibition</span>
+						<h3>Tim Walker: Wonderful Things</h3>
+						<p>From 21 Sep 2019 until 22 Mar 2020</p>
+						<a href="">Find out more &#9658;</a>
+					</figcaption>
+				</figure>
+				<figure class="event">
+					<img src="images/thirdevent.jpg">
+					<figcaption>
+						<span>Exhibition</span>
+						<h3>Cars: Accelerating the Modern World</h3>
+						<p>From 21 Nov 2019 until 19 Apr 2020</p>
+						<a href="">Find out more &#9658;</a>
+					</figcaption>
+				</figure>
+				<figure class="event">
+					<img src="images/fourthevent.jpg">
+					<figcaption>
+						<span>Installation</span>
+						<h3>Filthy Lucre: Whistler's Peacock Room Reimagined</h3>
+						<p>From 25 Jan 2020 until 3 May 2020</p>
+						<a href="">Find out more &#9658;</a>
+					</figcaption>
+				</figure>
+				<figure class="event">
+					<img src="images/fifthevent.jpg">
+					<figcaption>
+						<span>Display</span>
+						<h3>Concealed Histories: Uncovering the Story of Nazi Looting</h3>
+						<p>From 6 Dec 2019 until 10 Jan 2021</p>
+						<a href="">Find out more &#9658;</a>
+					</figcaption>
+				</figure>
+				<figure class="event">
+					<img src="images/sixthevent.jpg">
+					<figcaption>
+						<span>Display</span>
+						<h3>Concealed Histories: Uncovering the Story of Nazi Looting</h3>
+						<p>From 6 Dec 2019 until 10 Jan 2021</p>
+						<a href="">Find out more &#9658;</a>
+					</figcaption>
+				</figure>
+			</main>
+			<footer>
+				<span>+</span>
+				<p>Show more</p>
+			</footer>
+		</section>
+		<section class="newsletters">
+			<form>
+				<h2>Sign up to get the latest V&A news</h2>
+				<h3>Hear about exhibitions, events, offers and opportunities from the V&A and the V&A Museum of Childhood.</h3>
+				<input type="email" name="" placeholder="Enter your email address">
+				<button type="submit">Sign up</button>
+				<p>You can opt of hearing from us at any time using the unsubscribe link in our emails. Read our full <a href="">privacy&nbsp;policy.</a></p>
+			</form>
+		</section>
+		<section class="collection">
+			<h2>Latest from the collections</h2>
+			<figure class="collection-item">
+				<img src="https://vanda-production-assets.s3.amazonaws.com/2018/01/09/16/04/13/3a77b669-20bd-4cf8-b287-d59d47dfbecd/marilyn.jpg">
+				<figcaption>
+					<h3>Print</h3>
+				</figcaption>
+			</figure>
+			<figure class="collection-item">
+				<img src="https://vanda-production-assets.s3.amazonaws.com/2017/10/10/12/01/10/5ae64ca4-bda7-4e7d-aa11-0630e52071ee/320.jpg">
+				<figcaption>
+					<h3>Fashion in Motion</h3>
+				</figcaption>
+			</figure>
+			<figure class="collection-item">
+				<img src="https://vanda-production-assets.s3.amazonaws.com/2017/07/31/15/58/49/8fec7352-902f-4438-a8cb-f5e3efbd99d9/photography-thumbnail2.jpg">
+				<figcaption>
+					<h3>Photography</h3>
+				</figcaption>
+			</figure>
+			<figure class="collection-item">
+				<img src="https://vanda-production-assets.s3.amazonaws.com/2018/02/08/11/52/32/70236332-f26e-4402-b713-d951c782c3e9/320.jpg">
+				<figcaption>
+					<h3>Raphael Cartoons</h3>
+				</figcaption>
+			</figure>
+			<button>View more from our collections</button>
+		</section>
+		<section class="promo">
+			<article class="promo-item">
+				<div class="promo-item-content">
+					<h3>Membership</h3>
+					<p>Join today and enjoy unlimited free entry to all V&A exhibitions, Members-only previews and more</p>
+					<button>become a member &#9658;</button>
+				</div>
+			</article>
+		</section>
 	</main>
+
 </body>
 </html>

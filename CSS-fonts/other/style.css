@@ -100,8 +100,6 @@ footer p {
 	margin: 0;
 	padding: 20px;
 }
-
-<<<<<<< HEAD
 @media(min-width: 600px) {
 	body {
 		max-width: 1200px;
@@ -112,16 +110,13 @@ footer p {
 		width: 30%;
 		float: left;
 	}
-=======
-@media screen(min-width: 600px) {
->>>>>>> flex
+
 	#like:checked ~ label:hover {
 		color: rgba(255,0,0,0.3);
 	}
 	.like label:hover {
 		color: rgba(50,50,255,0.5);
 	}
-<<<<<<< HEAD
 	h1 {
 		display: inline-block;
 		font-size: 7vw;
@@ -170,6 +165,3 @@ footer p {
 		padding: 1vw;
 	}
 }
-=======
-}
->>>>>>> flex
