@@ -41,6 +41,25 @@ function second() {
 	}
 	alert(country);
 }
+function third() {
+	let year = +prompt('Введите год');
+	let isLeapYear = false;
+	if (year%4==0) {
+		isLeapYear = true;
+	} 
+	if (year%100==0) {
+		isLeapYear = false;
+	}
+	if (year%400==0) {
+		isLeapYear = true;
+	}
+	if (isLeapYear) {
+		year = 'високосный';
+	} else {
+		year = 'не високосный'
+	}
+	alert('введенный год ' + year);
+}
 function fourth() {
 	let numberForMultiply = +prompt('Введите число от 1 до 20.');
 	if (numberForMultiply < 1 || numberForMultiply > 20 || isNaN(numberForMultiply)) {
@@ -52,4 +71,43 @@ function fourth() {
 		}
 		alert(multiplyOfNumber);
 	}
+}
+function fifth() {
+	let sum = 0;
+	for (let i = 1; i<50; i++) {
+		if (i%2!=0) {
+			continue;
+		}
+		sum+=i;
+	}
+	alert(sum);
+}
+function sixth() {
+	let previous = 0
+	let current = 1;
+	let next = 1;
+	for (let i = 1; i <= 15; i++) {
+		next = previous + current;
+		console.log(next);
+		previous = current;
+		current = next;
+	}
+}
+function seventh() {
+	let board = '';
+	let symbol = true;
+	for (let i = 0; i < 64; i++) {
+		if (symbol) {
+			board+=' ';
+		} else {
+			board+='#';
+		}
+		symbol = !symbol;
+		if (i%8==0) {
+			board+='\n';
+			symbol = !symbol;
+		}
+
+	}
+	console.log(board);
 }
