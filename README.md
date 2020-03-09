@@ -76,4 +76,4 @@
 ### 14. [Эффекты. Анимация](https://docs.google.com/presentation/d/1cXShniDBfzZtsRLhgllJOQ7pk2FPp_fzNjYiWooedhc)
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/CSS-transition.md)
-* [Решение]()
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/animation)
