@@ -63,3 +63,17 @@
 ---
 
 ### 12. [Flexbox](https://docs.google.com/presentation/d/1uvritHChu3DRu4Vxc6Uaev0Pve5S62FMbcjfd_T3UF0)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/flexbox.pdf)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/Flex)
+
+---
+
+### 13. [Адаптивная вёрстка](https://docs.google.com/presentation/d/1VWI4JaSgtbHJfAikTuRdNa9Auoy8gdZSgSqKJMG47D8)
+
+---
+
+### 14. [Эффекты. Анимация](https://docs.google.com/presentation/d/1cXShniDBfzZtsRLhgllJOQ7pk2FPp_fzNjYiWooedhc)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/CSS-transition.md)
+* [Решение]()
