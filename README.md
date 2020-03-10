@@ -77,3 +77,30 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/CSS-transition.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/animation)
+
+---
+
+### 15. [SCSS](https://docs.google.com/presentation/d/1wMMlNM8AO6aAoxyReBEHt67owfxOrgt-1CIoK6r_SQQ)
+
+---
+
+### 16. [node.js + npm + sass](https://docs.google.com/presentation/d/17_Qek7Bd5Z8TFCkc2uhYc_bELh20hXCCc3DjsEwRq4k)
+
+---
+
+### 17. [Bootstrap](https://docs.google.com/presentation/d/1g8LlwOUmceSIHV6wM_qIQ4ANwvx9G02g_ywNkSHZG9o)
+
+---
+
+### 18. [Итоговая работа по верстке](https://github.com/AdukarIT/KandratsyeuSU/tree/master/CSS-main)
+
+---
+
+### 19. [Что такое Javascript](https://docs.google.com/presentation/d/1yeGuvmcECiQprXPBxZn1774aFpoE4T8ejmfAMYe6W9o)
+
+---
+
+### 20. [Операторы. Циклы](https://docs.google.com/presentation/d/1lfP87hmLw7dsJJ4uWJ2EoNocoyjHIpjxmA8UM9L4SVE)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-if-switch-while-for.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-first)
