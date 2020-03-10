@@ -104,3 +104,26 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-if-switch-while-for.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-first)
+
+---
+
+### 21. [Функции](https://docs.google.com/presentation/d/1umXzk2fkPGxExqVJ9L7h-pF2oOFBGuvAKkd_Cq1Zckg)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-functions.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-second)
+
+### 22. [Поиск ошибок и отладка кода](https://docs.google.com/presentation/d/1XQCfju_2w-BBf_6mJgr2mVBRBGs4TaKKhklzMhC1hVs)
+
+---
+
+### 23. [Массивы](https://docs.google.com/presentation/d/18yI352W8kpwxY1-tiQgRrft46z4-sq_L9-lhAKX7qHg)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-arrays.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-third)
+
+---
+
+### 24. [Объекты](https://docs.google.com/presentation/d/1yS-_HMH6GnmNq3e1qJFnSt-N8tKJ5iIusUIBEdX6k5g) 
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-objects.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-fourth)
