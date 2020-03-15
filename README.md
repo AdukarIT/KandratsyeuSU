@@ -134,3 +134,10 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-advanced.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-advanced)
+
+---
+
+### 26. [DOM. Работа со страницей](https://github.com/AdukarIT/_Tasks_/blob/master/JS-dom.md)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-dom.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/DOM)
