@@ -127,3 +127,10 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-objects.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-fourth)
+
+---
+
+### 25. [Продвинутый JavaScript](https://docs.google.com/presentation/d/1AmzaXsoWTWxy-x_nlytjR5owNHHoNZZRSWcoLbuZ_00)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-advanced.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-advanced)
