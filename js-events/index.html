@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>events</title>
+	<meta charset="utf-8">
+	<script src="js.js"></script>
+	<style>
+		body {
+			position: relative;
+		}
+		div {
+			width: 200px;
+			height: 200px;
+			background-color: olive;
+		}
+		table {
+			margin-top: 10px;
+		}
+		table td {
+			border: 1px solid black;
+		}
+		.bordered {
+			border: 2px solid lightgreen;
+		}
+		.striped {
+			border: 2px dashed blue;
+		}
+		.highlight {
+			box-shadow: 0 0 10px red;
+		}
+		img {
+			width: 200px;
+			height: 150px;
+		}
+		.wrapper {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: rgba(0,0,0,0.6);
+		}
+		.wrapper img {
+			position: absolute;
+			width: 90%;
+			height: 90%;
+			top: 5%;
+			left: 5%;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" name="btn" id="button" value="button">
+
+	<table>
+		<tbody>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</td>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</tbody>
+	</table>
+
+	<input type="radio" name="styles">
+	<input type="radio" name="styles">
+	<input type="radio" name="styles">
+	<hr>
+	<button id="alertButton">Alert</button><button id="blockAlertButton">block Alert</button>
+
+	<div></div>
+	<p>phapagraph</p>
+	<a href="">link</a>
+	<hr>
+	<img src="first.jpg" alt="image">
+	<div class="wrapper">
+		<img src="second.jpg">
+	</div>
+</body>
+</html>
