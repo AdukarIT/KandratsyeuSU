@@ -130,14 +130,25 @@
 
 ---
 
-### 25. [Продвинутый JavaScript](https://docs.google.com/presentation/d/1AmzaXsoWTWxy-x_nlytjR5owNHHoNZZRSWcoLbuZ_00)
+### 25. [Встроенные возможности JavaScript](https://docs.google.com/presentation/d/1SImZU8pOPMVRNzDu_mBqppu2hYVi-6ODkgoksO01RI0)
+
+---
+
+### 26. [Продвинутый JavaScript](https://docs.google.com/presentation/d/1AmzaXsoWTWxy-x_nlytjR5owNHHoNZZRSWcoLbuZ_00)
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-advanced.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-advanced)
 
 ---
 
-### 26. [DOM. Работа со страницей](https://github.com/AdukarIT/_Tasks_/blob/master/JS-dom.md)
+### 27. [DOM. Работа со страницей](https://github.com/AdukarIT/_Tasks_/blob/master/JS-dom.md)
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-dom.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/DOM)
+
+---
+
+### 28. [События. Координаты на странице](https://docs.google.com/presentation/u/1/d/1MsMb2dNidpGELmB2HN4IVoZG5FqlI0HwCwVfc_XWnsQ)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-events.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-events)
