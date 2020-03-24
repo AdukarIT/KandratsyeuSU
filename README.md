@@ -152,3 +152,17 @@
 
 * [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-events.md)
 * [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/js-events)
+
+---
+
+### 29. [Формы](https://docs.google.com/presentation/d/1rCZRsO6LkJ3wB82hfMHEUF_zVlM8VVRb9zSDxtrZzfU)
+
+* [Домашнее задание](https://github.com/AdukarIT/_Tasks_/blob/master/JS-forms.md)
+* [Решение](https://github.com/AdukarIT/KandratsyeuSU/tree/master/forms)
+
+---
+
+### 30. [ООП в Javascript](https://docs.google.com/presentation/u/1/d/1o8DGREJlXjfjXRDIvrM4Xdw0X59hx3PCmR7IOIuQMGg)
+
+* [Домашнее задание]()
+* [Решение]()
