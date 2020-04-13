@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>db_task</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/css/style.css">
+	<script src="scripts/init.js"></script>
+</head>
+<body>
+	<div class="main">
+		<h2>Представлен в брендах</h2>
+		<nav id="sortByBrands">
+			<ul>
+				<li id="allBrands" class="active"><span>Все бренды</span></li>
+				<li id="bonfesto"><img src="img/bonfesto_text_dark.png"></li>
+				<li id="villmonte"><img src="img/villmonte_text_dark.png"></li>
+				<li id="cooKing"><img src="img/cooKing_text_dark.png"></li>
+			</ul>
+		</nav>
+		<section class="product-list">
+			
+		</section>
+	</div>
+	<div class="addProduct">
+		<form name="product">
+			<span>Ссылка на изображение:</span>
+			<br>
+			<input type="text" name="imgChoose">
+			<br>
+			<img src="" name="img">
+			<br>
+			<span>Тип:</span>
+			<br><input type="text" name="type">
+			<br>
+			<span>Название:</span>
+			<br><input type="text" name="title">
+			<br>
+			<span>Вкус:</span>
+			<br><input type="text" name="subtitle">
+			<br>
+			<span>Производитель:</span>
+			<br>
+			<select name="brand">
+				<option>bonfesto</option>
+				<option>villmonte</option>
+				<option>cooKing</option>
+			</select>
+			<br>
+			<span>Описание:</span>
+			<br><textarea name="description"></textarea>
+			<br>
+			<button id="saveProduct">&or;</button><button id="deleteProduct">x</button>
+		</form>
+	</div>
+
+</body>
+</html>
