@@ -166,3 +166,7 @@
 
 * [Домашнее задание]()
 * [Решение]()
+
+---
+
+### [Проект: веб-приложение с использованием локального хранилища](https://github.com/AdukarIT/KandratsyeuSU/tree/master/finalProject_1)
