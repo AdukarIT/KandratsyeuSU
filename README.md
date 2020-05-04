@@ -164,9 +164,10 @@
 
 ### 30. [ООП в Javascript](https://docs.google.com/presentation/u/1/d/1o8DGREJlXjfjXRDIvrM4Xdw0X59hx3PCmR7IOIuQMGg)
 
-* [Домашнее задание]()
-* [Решение]()
-
 ---
 
 ### [Проект: веб-приложение с использованием локального хранилища](https://github.com/AdukarIT/KandratsyeuSU/tree/master/finalProject_1)
+
+---
+
+### [Проект: веб-приложение с использованием API](https://github.com/AdukarIT/KandratsyeuSU/tree/master/finalProject_2)
